@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Search</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<section class="section-recipes">
+    <div class="container">
+
+        <div class="recipe-search">
+            <h1 class="recipe-title">Find a Recipe</h1>
+            <div class="recipe-search-box">
+                <input type="text" id="search-input" class="search-control" placeholder="Enter an ingredient">
+                <button class="search-btn" id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="recipe-content" id="recipe-content">
+            <h2 class="recipe-content-title">Your Recipes</h2>
+            <div class="recipe-list" id="recipe-list"></div>
+        </div>
+
+        <div class="recipe-modal" id="recipe-modal">
+            <div class="modal-content">
+                <span id="modal-close" class="modal-close">&times;</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>
